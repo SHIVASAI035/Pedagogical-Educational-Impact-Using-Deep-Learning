@@ -1,0 +1,21 @@
+{
+  "name": "Synthetic Student Performance Dataset",
+  "synthetic": true,
+  "seed": 42,
+  "rows": 4000,
+  "features": [
+    "attendance_pct",
+    "study_hours",
+    "previous_marks",
+    "assignment_completion",
+    "class_participation",
+    "learning_engagement",
+    "subject_performance"
+  ],
+  "target": "final_score",
+  "missing_value_rate": 0.0147,
+  "generated_at": "2026-10-30T15:44:55.795373Z",
+  "generator": "app/dataset/generate_dataset.py",
+  "documentation": "docs/DATASET.md",
+  "note": "Synthetic data generated from the documented process in this file. It is not collected from real students and must not be presented as such."
+}
